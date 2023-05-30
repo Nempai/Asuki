@@ -1,7 +1,22 @@
 body {
     margin:0;
     background: #202c44;
+    position: fixed;
+    overflow-y:scroll
 }
+.element::-webkit-scrollbar {
+    width: 0;
+  }
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+.anime {
+    position:absolute;
+}
+  .anime img {
+    width:800px;
+    height:900px;
+  }
 .block__info {
     display:flex;
     justify-content: center;
@@ -10,13 +25,14 @@ body {
 .send {
     width:800px;
     height:200px;
-    margin-left:50%;
+    margin-left:110%;
+    margin-top:30%;
 }
 .info__content {
     width:700px;
     height:200px;
-    margin-top:35%;
-    margin-left:50%;
+    margin-top:15%;
+    margin-left:110%;
 }
 p {
     color:white;
