@@ -1,1 +1,1 @@
-# Asuki
+# Asuki anime project
