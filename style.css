@@ -72,6 +72,9 @@ button {
 #info__input {
     margin-left:-45%;
 }
+.anime {
+    display:none;
+}
 }
 
 @media screen and (max-width: 800px) {
@@ -82,16 +85,22 @@ p {
     width: 240px;
     height:24px;
     margin:0 auto;
-    margin-left:-175px;
+    margin-left:-105%;
 }
 button {
     width: 100px;
     height: 25px;
+    
+}
+png {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
 }
 .info__content {
 width:30%;
 height:220px;
 margin:0 auto;
-margin-left:250px;
+margin-left:5%;
 }
 }
